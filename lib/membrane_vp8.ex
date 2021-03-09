@@ -1,3 +1,3 @@
-defmodule Membrane.Caps.VP8 do
+defmodule Membrane.VP8 do
   defstruct []
 end
