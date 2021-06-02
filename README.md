@@ -1,8 +1,8 @@
 # Membrane VP8 Format
 
-[![Hex.pm](https://img.shields.io/hexpm/v/membrane_vp8_format.svg)](https://hex.pm/packages/membrane_vp9_format)
-[![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_vp9_format)
-[![CircleCI](https://circleci.com/gh/membraneframework/membrane_vp9_format.svg?style=svg)](https://circleci.com/gh/membraneframework/membrane_vp9_format)
+[![Hex.pm](https://img.shields.io/hexpm/v/membrane_vp8_format.svg)](https://hex.pm/packages/membrane_vp8_format)
+[![API Docs](https://img.shields.io/badge/api-docs-yellow.svg?style=flat)](https://hexdocs.pm/membrane_vp8_format)
+[![CircleCI](https://circleci.com/gh/membraneframework/membrane_vp8_format.svg?style=svg)](https://circleci.com/gh/membraneframework/membrane_vp8_format)
 
 Membrane format describing VP8 video stream.
 
