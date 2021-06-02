@@ -38,7 +38,7 @@ defmodule Membrane.VP8.Mixfile do
     [
       {:membrane_core, "~> 0.6.0"},
       {:ex_doc, "~> 0.22", only: :dev, runtime: false},
-      {:dialyxir, "~> 1.0.0", only: :dev, runtime: false},
+      {:dialyxir, "~> 1.1.0", only: :dev, runtime: false},
       {:credo, "~> 1.4", only: :dev, runtime: false}
     ]
   end
@@ -59,7 +59,7 @@ defmodule Membrane.VP8.Mixfile do
       main: "readme",
       extras: ["README.md", "LICENSE"],
       source_ref: "v#{@version}",
-      nest_modules_by_prefix: [Membrane.Caps]
+      nest_modules_by_prefix: [Membrane.VP8]
     ]
   end
 end
