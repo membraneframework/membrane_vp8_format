@@ -7,15 +7,12 @@ defmodule Membrane.VP8 do
 
   @type width_t :: integer
   @type height_t :: integer
-  @type timebase_t :: Ratio
-  @type frame_count_t :: integer
 
   @type t :: %__MODULE__{
     width: width_t,
     height: height_t,
-    timebase: timebase_t,
-    frame_count: frame_count_t
   }
 
-  defstruct []
+  @enforce_keys [:width, :height]
+  defstruct @enforce_keys
 end
