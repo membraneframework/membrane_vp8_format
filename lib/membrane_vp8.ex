@@ -3,8 +3,6 @@ defmodule Membrane.VP8 do
   This module implements struct describing a VP8 encoded video stream.
   """
 
-  use Ratio
-
   @type width_t :: integer
   @type height_t :: integer
 
