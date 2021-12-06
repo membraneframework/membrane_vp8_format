@@ -1,7 +1,7 @@
 defmodule Membrane.VP8.Mixfile do
   use Mix.Project
 
-  @version "0.3.0"
+  @version "0.4.0"
   @github_url "https://github.com/membraneframework/membrane_vp8_format"
 
   def project do
